@@ -113,11 +113,11 @@ nav li a {
 .sidebar,
 .main {
     float: left;
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .sidebar {
-    width: calc(100% / 4 - 20px);
+    width: calc(100% / 5 - 20px);
     font-size: 14px;
 }
 
@@ -130,9 +130,37 @@ nav li a {
 }
 
 .main {
-    width: calc((100% / 4) * 2);
+    width: calc((100% / 5) * 3);
     font-size: 18px;
 }
+
+.main-img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius:  15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #646464;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 16px;
+    color: #A3A3A3;
+}
+
 /* / Contenuto Principale Pagina */
 
 footer {
