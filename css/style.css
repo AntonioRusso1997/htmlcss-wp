@@ -86,9 +86,8 @@ nav li a {
 /* Contenuto Principale Pagina */
 .main-container {
     width: 100%;
-    height: 700px;
     margin-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 .main-top {
@@ -113,7 +112,6 @@ nav li a {
 .sidebar,
 .main {
     float: left;
-    /* padding: 15px; */
 }
 
 .sidebar {
@@ -137,7 +135,7 @@ nav li a {
 .main-img {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 200px;
     border-radius:  15px;
     overflow: hidden;
     margin-bottom: 20px;
