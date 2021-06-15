@@ -92,9 +92,22 @@ nav li a {
 }
 
 .main-top {
+    float: left;
     width: 100%;
-    height: 100px;
     margin-bottom: 25px;
+}
+
+.top-title {
+    padding: 10px 0px;
+}
+
+.top-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.top-title p {
+    color: #939393;
 }
 
 .sidebar,
